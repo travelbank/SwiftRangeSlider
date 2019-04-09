@@ -1,12 +1,12 @@
 Pod::Spec.new do |s|
 
 s.platform = :ios
-s.ios.deployment_target = '8.0'
+s.ios.deployment_target = '11.0'
 s.name = "SwiftRangeSlider"
 s.summary = "A Swift implementation of a custom UIControl for selecting a range of values on a slider bar."
 s.requires_arc = true
 
-s.version = "1.1.0"
+s.version = "2.1.0"
 s.license = { :type => "MIT", :file => "LICENSE" }
 s.author = { "Brian Corbin" => "brian.william.corbin@gmail.com" }
 s.homepage = "https://github.com/BrianCorbin/SwiftRangeSlider"
